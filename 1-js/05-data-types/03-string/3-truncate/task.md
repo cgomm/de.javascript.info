@@ -2,16 +2,17 @@ importance: 5
 
 ---
 
-# Truncate the text
+# Text kürzen
 
-Create a function `truncate(str, maxlength)` that checks the length of the `str` and, if it exceeds `maxlength` -- replaces the end of `str` with the ellipsis character `"…"`, to make its length equal to `maxlength`.
 
-The result of the function should be the truncated (if needed) string.
+Schreibe eine Funktion `truncate(str, maxlength)` welche die Länge des Strings `str` prüft und, wenn er länger als `maxlength` ist -- das Ende von `str` mit dem Auslassungszeichen `"…"` so ersetzt, das die insgesamte Länge des Strings nicht länder als `maxlength` ist.
 
-For instance:
+Das Ergebnis der Funktion sollte der gekürzte String mit, sofern benötigt, dem Auslassungszeichen sein.
+
+Beispielsweise:
 
 ```js
-truncate("What I'd like to tell on this topic is:", 20) = "What I'd like to te…"
+truncate("Was ich dir in über dieses Thema gerne erzählen würde:", 20) = "Was ich dir in über…"
 
-truncate("Hi everyone!", 20) = "Hi everyone!"
+truncate("Hallo zusammen!", 20) = "Hallo zusammen!"
 ```

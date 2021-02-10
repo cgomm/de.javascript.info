@@ -2,15 +2,14 @@ importance: 4
 
 ---
 
-# Extract the money
+# Extrahier das Geld
 
-We have a cost in the form `"$120"`. That is: the dollar sign goes first, and then the number.
+Wir haben eine Preis der Form `"€120"`. Bedeutet: es steht erst das EUR Zeichen, dann der Preis.
 
-Create a function `extractCurrencyValue(str)` that would extract the numeric value from such string and return it. 
+Schreibe eine Funktion `extractCurrencyValue(str)` welche den Zahlenwert aus dem String extrahiert und zurückgibt. 
 
-The example:
+Beispielsweise:
 
 ```js
-alert( extractCurrencyValue('$120') === 120 ); // true
+alert( extractCurrencyValue('€120') === 120 ); // true
 ```
-
