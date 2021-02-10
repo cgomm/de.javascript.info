@@ -2,11 +2,11 @@ importance: 5
 
 ---
 
-# Check for spam
+# Spamfilter
 
-Write a function `checkSpam(str)` that returns `true` if `str` contains 'viagra' or 'XXX', otherwise `false`.
+Schreibe eine Funktion `checkSpam(str)` welche `true` zurückgibt, wenn `str` 'viagra' oder 'XXX' beinhaltet, ansonsten soll `false` zurückgegeben werden.
 
-The function must be case-insensitive:
+Die Funktion soll Groß- und Kleinschreibung nich beachten:
 
 ```js
 checkSpam('buy ViAgRA now') == true
